@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>src_with_space</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="NSwag.ApiDescription.Client" Version="13.0.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <OpenApiReference Include="swagger.json" SourceUrl="https://petstore.swagger.io/v2/swagger.json" />
+  </ItemGroup>
+</Project>
